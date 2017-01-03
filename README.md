@@ -5,7 +5,7 @@ A blog website where dog owners can post a photo and information about their dog
 **Routing chart**
 
 | Name     | Path          | HTTP Verb  | Purpose                                          | Mongoose Method         |
-| -------- | :------:      | :--------: | :-----------:                                    | --------------:         |
+| -------- | :------:      | :--------: | :-----------:                                    | :-------------------:   |
 | Index    | /dogs         | GET        | List all dogs                                    | Dog.find()              |
 | New      | /dogs/new     | GET        | Show new dog form                                | N/A                     |
 | Create   | /dogs         | POST       | Create a new dog, then redirect somewhere        | Dog.create()            |
